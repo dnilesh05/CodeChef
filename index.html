@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>CodeChef</title>
-    <base href="/" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--   <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
@@ -13,854 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <style>
-      /* common css */
-.common-display {
-  display: inline;
-}
-.primary-color {
-  color: orangered;
-}
-.common-padding {
-  padding: 0px;
-}
-.dot {
-  height: 7px;
-  width: 7px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 3px;
-}
-.dot-orange {
-  height: 7px;
-  width: 7px;
-  background-color: orangered;
-  border-radius: 60%;
-  display: inline-block;
-  margin: 3px;
-}
-.dot-blue {
-  height: 7px;
-  width: 7px;
-  background-color: blue;
-  border-radius: 60%;
-  display: inline-block;
-  margin: 3px;
-}
-.dot-red {
-  height: 7px;
-  width: 7px;
-  background-color: red;
-  border-radius: 60%;
-  display: inline-block;
-  margin: 3px;
-}
-.dot-yellow {
-  height: 7px;
-  width: 7px;
-  background-color: yellow;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 3px;
-}
-/* common css end */
-
-/* header css */
-.top-header-border {
-  border-bottom: 1px solid #eeeeee;
-}
-.top-header {
-  margin: 0px 75px;
-  font-size: 13px;
-  padding: 25px 0;
-}
-.log-btn {
-  padding: 0 10px;
-}
-.new-user-btn {
-  border: 1px solid orangered;
-  padding: 10px 15px;
-}
-.menu-header {
-  margin: 15px 75px 10px 75px;
-  font-size: 13px;
-}
-.menu-item {
-  display: inline;
-  float: right;
-  padding-top: 20px;
-}
-.home-menu {
-  display: inline;
-  padding: 5px 15px;
-  color: orangered;
-  border-bottom: 1px solid orangered;
-  border-width: 10%;
-}
-.menu-item ul li {
-  display: inline;
-  padding: 0 15px;
-}
-/* header css end */
-
-/* section1 */
-.section1 {
-  background-image: url("images/587a439bb0b3561306f2c444d571fc27.png");
-  background-repeat: repeat;
-  padding: 50px 0;
-}
-.main-div-sec1 {
-  margin: 75px 200px;
-  font-size: 30px;
-  position: relative;
-}
-.sec1-btn {
-  background: orangered;
-  color: #fff;
-  padding: 15px 60px;
-  border: 0;
-}
-.sec1-img {
-  position: absolute;
-  right: -15%;
-  bottom: -158px;
-}
-.sub-sec1 {
-  background: #111010c7;
-  color: #fff;
-}
-.sub-sec-main-div {
-  margin: 0px 200px 0 200px;
-  padding: 0px;
-}
-.sub-sec-text {
-  font-size: 20px;
-  padding: 20px 0;
-}
-.sub-sec1 .text-position {
-  padding-left: 10px;
-}
-/* section 1 end */
-
-/* section2 */
-.section2 {
-  background: #d9d9d936;
-  padding: 85px 0;
-}
-.sec2-main-div {
-  margin: 0px 200px;
-  padding: 0px;
-}
-.sec2-title {
-  text-align: center;
-  font-size: 32px;
-  margin: 0px;
-}
-.sec2-title-text {
-  font-size: 20px;
-  text-align: justify;
-  line-height: 1.5;
-}
-/* section2 end */
-
-/* section3 */
-.section3 {
-  padding: 85px 0;
-}
-.sec3-main-div {
-  margin: 0px 200px;
-  padding: 0px;
-}
-.sec3-title {
-  text-align: center;
-  font-size: 32px;
-}
-.sec3-menu {
-  text-align: center;
-  font-size: 22px;
-  padding-top: 25px;
-}
-.sec3-menu ul {
-  list-style: none;
-  display: inline;
-}
-.sec3-menu ul li {
-  display: inline;
-  padding: 0 20px;
-  color: orangered;
-}
-.sec3-first-li {
-  display: inline;
-  padding: 0 20px;
-  border-bottom: 3px solid orangered;
-}
-.sec3-sub-main-div {
-  margin: 30px 200px;
-  padding: 0px;
-}
-.sec3-sub-main-div-third {
-  margin: 50px 200px;
-  padding: 0px;
-}
-.sec3-first-half {
-  width: 40%;
-  display: inline-block;
-}
-.sec3-first-half .sec3-title {
-  position: absolute;
-  margin-top: -110px;
-  font-size: 20px;
-}
-.sec3-first-half .sec3-sec-title {
-  position: absolute;
-  margin-top: -60px;
-}
-.sec3-course {
-  width: 60%;
-  display: inline-block;
-}
-.course-text {
-  color: orangered;
-  margin: 5px 0;
-}
-.sec3-price {
-  width: 50%;
-  display: inline-block;
-  background: peru;
-}
-.sec3-price1{
-   width: 50%;
-  display: inline-block;
-  background: #fff;
-}
-.sec3-price-text {
-  padding: 20px;
-}
-.sec3-btn-div {
-  text-align: center;
-}
-/* section3 end */
-
-/* section4 */
-.section4 {
-  background: #d9d9d936;
-  padding: 85px 0;
-}
-.sec4-main-div {
-  margin: 0px 200px;
-  padding: 0px;
-}
-.sec4-title {
-  text-align: center;
-  font-size: 32px;
-  margin: 0px;
-}
-.sec4-subtitle {
-  font-size: 20px;
-  text-align: center;
-  line-height: 1.5;
-}
-.sec-panel {
-  margin-top: 50px;
-}
-.sec4-panel-first {
-  width: 15%;
-  display: inline-block;
-}
-.sec4-panel-second {
-  width: 70%;
-  display: inline-block;
-}
-.sec4-panel-third {
-  width: 15%;
-  display: inline-block;
-}
-.sec4-subpanel-first {
-  width: 14%;
-  display: inline-block;
-}
-.sec4-subpanel-second {
-  width: 69%;
-  display: inline-block;
-  background: linear-gradient(to left, #fff 80%, #d9d9d936 20%);
-}
-.sec4-subpanel-third {
-  width: 14%;
-  display: inline-block;
-}
-.sec4-arrow {
-  position: absolute;
-  margin-top: -150px;
-  font-size: 50px;
-  color: orangered;
-}
-.sec4-arrow-right {
-  position: absolute;
-  margin-top: -150px;
-  font-size: 50px;
-  color: orangered;
-  margin-left: 75px;
-}
-.sec4-subpanel-second .sec4-subpanel-img {
-  width: 30%;
-  display: inline-block;
-}
-.sec4-image-responsive {
-  width: 150px;
-  height: 200px;
-}
-.sec4-subpanel-second .sec4-subpanel-img div {
-  margin-left: 15%;
-}
-.sec4-subpanel-second .sec4-subpanel-text {
-  width: 69%;
-  display: inline-block;
-}
-.sec4-subpanel-second .sec4-subpanel-text div {
-  padding: 15px;
-}
-.sec4-subpannel-title {
-  text-align: justify;
-  font-size: 18px;
-  line-height: 1.8;
-}
-/* section4 end*/
-
-/* section5 */
-.section5 {
-  padding: 85px 0;
-}
-.sec5-main-div {
-  margin: 0px 200px;
-  padding: 0px;
-}
-.sec5-title {
-  text-align: center;
-  font-size: 32px;
-  margin: 0px;
-}
-.sec5-subtitle {
-  font-size: 20px;
-  text-align: center;
-  line-height: 1.5;
-}
-.sec5-main-div-second {
-  margin: 5% 20%;
-  width: 80%;
-}
-.sec5-block-size {
-  display: inline-block;
-  width: 20%;
-}
-.sec5-block-content {
-  margin: 0 10px;
-  border: 1px solid #ccc;
-  background: linear-gradient(to right, #d9d9d936 60%, #fff 40%);
-}
-.sec5-block-content-img {
-  width: 120px;
-  height: 120px;
-  height: auto;
-}
-.block-img-rsponsive {
-  margin: 10% 20%;
-  max-width: 100%;
-  height: 150px;
-}
-.sec5-block-content-text1 {
-  margin: 0 20%;
-  font-size: 15px;
-  border-bottom: 1px solid #eee;
-}
-.sec5-block-content-text2 {
-  margin: 4% 20%;
-  font-size: 19px;
-  font-size: 15px;
-}
-/* section 5 end */
-
-/* footer */
-footer {
-  background: #d9d9d936;
-}
-.top-footer-border {
-  border-bottom: 1px solid #ccc;
-}
-.footer-main-div {
-  text-align: center;
-  margin: 0px 75px;
-  font-size: 18px;
-  padding: 15px 0;
-}
-.footer-text {
-  color: orangered;
-  padding: 10px 0;
-  font-size: 25px;
-}
-.footer-icon {
-  padding: 0 5px;
-}
-.footer-main-div-second {
-  margin: 0px 75px;
-  font-size: 15px;
-}
-.footer-menu {
-  list-style: none;
-  padding: 25px 0;
-  margin: 0;
-}
-.footer-dot-icon {
-  display: inline-block;
-  position: absolute;
-  margin-top: 15px;
-  margin-left: -25px;
-}
-.footer-common {
-  display: inline;
-  padding: 0 15px;
-  margin: 0;
-}
-.footer-first-menu {
-  display: inline;
-  padding: 10px 15px;
-  margin: 0;
-  border-bottom: 1px solid orangered;
-}
-.footer-sub-menu {
-  list-style: none;
-  padding: 10px 0 50px 0;
-  margin: 0;
-  text-align: left;
-}
-/* footer end */
-
-/* media query */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* common css */
-  .common-display {
-    display: inline;
-  }
-  .primary-color {
-    color: orangered;
-  }
-  .common-padding {
-    padding: 0px;
-  }
-  .dot {
-    height: 7px;
-    width: 7px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 3px;
-  }
-  .dot-orange {
-    height: 7px;
-    width: 7px;
-    background-color: orangered;
-    border-radius: 60%;
-    display: inline-block;
-    margin: 3px;
-  }
-  .dot-blue {
-    height: 7px;
-    width: 7px;
-    background-color: blue;
-    border-radius: 60%;
-    display: inline-block;
-    margin: 3px;
-  }
-  .dot-red {
-    height: 7px;
-    width: 7px;
-    background-color: red;
-    border-radius: 60%;
-    display: inline-block;
-    margin: 3px;
-  }
-  .dot-yellow {
-    height: 7px;
-    width: 7px;
-    background-color: yellow;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 3px;
-  }
-  /* common css end */
-
-  /* header css */
-  .top-header-border {
-    border-bottom: 1px solid #eeeeee;
-  }
-  .top-header {
-    margin: 15px;
-    font-size: 13px;
-    padding: 25px 0;
-  }
-  .header-div-distance {
-    margin: 15px;
-  }
-  .log-btn {
-    padding: 0 10px;
-  }
-  .new-user-btn {
-    border: 1px solid orangered;
-    padding: 10px 15px;
-  }
-  .menu-header {
-    margin: 15px;
-    font-size: 13px;
-  }
-  .menu-item {
-    display: inline;
-    float: right;
-    padding-top: 20px;
-  }
-  .home-menu {
-    display: inline;
-    padding: 5px 15px;
-    color: orangered;
-    border-bottom: 1px solid orangered;
-    border-width: 10%;
-  }
-  .menu-item ul li {
-    display: inline;
-    padding: 0 10px;
-  }
-  /* header css end */
-
-  /* section1 */
-  .section1 {
-    background-image: url("images/587a439bb0b3561306f2c444d571fc27.png");
-    background-repeat: repeat;
-    padding: 50px 0;
-    margin-top: 50px;
-  }
-  .main-div-sec1 {
-    margin: 75px;
-    font-size: 30px;
-    position: relative;
-  }
-  .sec1-btn {
-    background: orangered;
-    color: #fff;
-    padding: 15px 60px;
-    border: 0;
-  }
-  .sec1-img {
-    position: absolute;
-    right: -30%;
-    bottom: -158px;
-  }
-  .sub-sec1 {
-    background: #111010c7;
-    color: #fff;
-  }
-  .sub-sec-main-div {
-    margin: 0px 15px;
-    padding: 0px;
-  }
-  .sub-sec-text {
-    font-size: 20px;
-    padding: 20px 0;
-  }
-  .sub-sec1 .text-position {
-    padding-left: 10px;
-  }
-  /* section 1 end */
-
-  /* section2 */
-  .section2 {
-    background: #d9d9d936;
-    padding: 85px 0;
-  }
-  .sec2-main-div {
-    margin: 0px 15px;
-    padding: 0px;
-  }
-  .sec2-title {
-    text-align: center;
-    font-size: 32px;
-    margin: 0px;
-  }
-  .sec2-title-text {
-    font-size: 20px;
-    text-align: justify;
-    line-height: 1.5;
-  }
-  /* section2 end */
-
-  /* section3 */
-  .section3 {
-    padding: 15px 0;
-  }
-  .sec3-main-div {
-    margin: 0px 15px;
-    padding: 0px;
-  }
-  .sec3-title {
-    text-align: center;
-    font-size: 32px;
-  }
-  .sec3-menu {
-    text-align: center;
-    font-size: 22px;
-    padding-top: 25px;
-  }
-  .sec3-menu ul {
-    list-style: none;
-    display: inline;
-  }
-  .sec3-menu ul li {
-    display: inline;
-    padding: 0 2px;
-    color: orangered;
-  }
-  .sec3-first-li {
-    display: inline;
-    padding: 0 2px;
-    border-bottom: 3px solid orangered;
-  }
-  .sec3-sub-main-div {
-    margin: 30px 15px;
-    padding: 0px;
-  }
-  .sec3-sub-main-div-third {
-    margin: 50px 15px;
-    padding: 0px;
-  }
-  .sec3-first-half {
-    width: 40%;
-    display: inline-block;
-  }
-  .sec3-first-half .sec3-title {
-    position: absolute;
-    margin-top: -110px;
-    font-size: 20px;
-  }
-  .sec3-first-half .sec3-sec-title {
-    position: absolute;
-    margin-top: -60px;
-  }
-  .sec3-course {
-    width: 50%;
-    display: inline-block;
-  }
-  .course-text {
-    color: orangered;
-    margin: 5px 0;
-  }
-  .sec3-price {
-    width: 50%;
-    display: inline-block;
-    background: peru;
-  }
-  .sec3-price-text {
-    padding: 20px;
-  }
-  .sec3-btn-div {
-    text-align: center;
-  }
-  /* section3 end */
-
-  /* section4 */
-  .section4 {
-    background: #d9d9d936;
-    padding: 15px 0;
-  }
-  .sec4-main-div {
-    margin: 0px 15px;
-    padding: 0px;
-  }
-  .sec4-title {
-    text-align: center;
-    font-size: 32px;
-    margin: 0px;
-  }
-  .sec4-subtitle {
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.5;
-  }
-  .sec-panel {
-    margin-top: 50px;
-  }
-  .sec4-panel-first {
-    width: 0%;
-    display: inline-block;
-  }
-  .sec4-panel-second {
-    width: 100%;
-    display: inline-block;
-  }
-  .sec4-panel-third {
-    width: 0%;
-    display: inline-block;
-  }
-  .sec4-subpanel-first {
-    width: 15%;
-    display: inline-block;
-  }
-  .sec4-subpanel-second {
-    width: 69%;
-    display: inline-block;
-    background: linear-gradient(to left, #fff 80%, #d9d9d936 20%);
-  }
-  .sec4-subpanel-third {
-    width: 13%;
-    display: inline-block;
-  }
-  .sec4-arrow {
-    position: absolute;
-    margin-top: -200px;
-    font-size: 50px;
-    color: orangered;
-  }
-  .sec4-arrow-right {
-    position: absolute;
-    margin-top: -200px;
-    font-size: 50px;
-    color: orangered;
-    margin-left: 10px;
-  }
-  .sec4-subpanel-second .sec4-subpanel-img {
-    width: 29%;
-    display: inline-block;
-  }
-  .sec4-image-responsive {
-    width: 90px;
-    height: 140px;
-  }
-  .sec4-subpanel-second .sec4-subpanel-img div {
-    margin-left: 0%;
-  }
-  .sec4-subpanel-second .sec4-subpanel-text {
-    width: 68%;
-    display: inline-block;
-  }
-  .sec4-subpanel-second .sec4-subpanel-text div {
-    padding: 15px;
-  }
-  .sec4-subpannel-title {
-    text-align: justify;
-    font-size: 18px;
-    line-height: 1.8;
-  }
-  /* section4 end*/
-
-  /* section5 */
-  .section5 {
-    padding: 85px 0;
-  }
-  .sec5-main-div {
-    margin: 0px 20px;
-    padding: 0px;
-  }
-  .sec5-title {
-    text-align: center;
-    font-size: 32px;
-    margin: 0px;
-  }
-  .sec5-subtitle {
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.5;
-  }
-  .sec5-main-div-second {
-    margin: 5% 10%;
-    width: 80%;
-  }
-  .sec5-block-size {
-    display: inline-block;
-    width: 100%;
-    padding: 10px 0;
-  }
-  .sec5-block-content {
-    margin: 0 10px;
-    border: 1px solid #ccc;
-    background: linear-gradient(to right, #d9d9d936 60%, #fff 40%);
-  }
-  .sec5-block-content-img {
-    width: 120px;
-    height: 120px;
-    height: auto;
-  }
-  .block-img-rsponsive {
-    margin: 10% 20%;
-    max-width: 100%;
-    height: 150px;
-  }
-  .sec5-block-content-text1 {
-    margin: 0 20%;
-    font-size: 15px;
-    border-bottom: 1px solid #eee;
-  }
-  .sec5-block-content-text2 {
-    margin: 4% 20%;
-    font-size: 19px;
-    font-size: 15px;
-  }
-  /* section 5 end */
-
-  /* footer */
-  footer {
-    background: #d9d9d936;
-  }
-  .top-footer-border {
-    border-bottom: 1px solid #ccc;
-  }
-  .footer-main-div {
-    text-align: center;
-    margin: 0px 75px;
-    font-size: 18px;
-    padding: 15px 0;
-  }
-  .footer-text {
-    color: orangered;
-    padding: 10px 0;
-    font-size: 25px;
-  }
-  .footer-icon {
-    padding: 0 5px;
-  }
-  .footer-main-div-second {
-    margin: 0px 75px;
-    font-size: 15px;
-    text-align: center;
-  }
-  .footer-menu {
-    /* list-style: none;
-    padding: 25px 0; */
-    margin: 0;
-  }
-  .footer-dot-icon {
-    /* display: inline-block;
-    position: absolute;
-    margin-top: 15px;
-    margin-left: -25px; */
-  }
-  .footer-common {
-    margin: 0;
-    display: list-item;
-    padding: 10px 0;
-  }
-  .footer-first-menu {
-    display: list-item;
-    padding: 15px;
-    margin: 0;
-    border-bottom: 1px solid orangered;
-  }
-  .footer-sub-menu {
-    list-style: none;
-    padding: 10px 0 50px 0;
-    margin: 0;
-    text-align: center;
-  }
-  /* footer end */
-}
-
-    </style>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body style="padding:0px;margin:0px;font-family:'Roboto'">
     <header>
@@ -922,7 +75,7 @@ footer {
                 <button class="sec1-btn"><b>Enrol Now</b></button>
             </div>
             <div class="sec1-img">
-                <img src="images\c9cdc333749f73070e40d3e4c18e8c62" width="200px" height="150px" />
+                <img src="images/c9cdc333749f73070e40d3e4c18e8c62.png" width="200px" height="150px" />
             </div>
         </div>
     </section>
@@ -1052,7 +205,7 @@ footer {
                 <div class="sec4-subpanel-second">
                     <div class="sec4-subpanel-img">
                         <div>
-                            <img src="images/acaa97f0cb4eaf45817382bdbb1fdc46" class="sec4-image-responsive" />
+                            <img src="images/acaa97f0cb4eaf45817382bdbb1fdc46.png" class="sec4-image-responsive" />
                         </div>
                     </div>
                     <div class="sec4-subpanel-text">
@@ -1092,7 +245,7 @@ footer {
             <div class="sec5-block-size">
                 <div class="sec5-block-content">
                     <div class="sec5-block-content-img">
-                        <img src="C:\Users\neeraj dana\Desktop\CodeChef\images\1f71266a47d9a33eb2ec2dc39e75678b" class="block-img-rsponsive" />
+                        <img src="images/1f71266a47d9a33eb2ec2dc39e75678b.png" class="block-img-rsponsive" />
                     </div>
                     <div class="sec5-block-content-text1">
                         <div style="padding:20px 0">
@@ -1115,7 +268,7 @@ footer {
             <div class="sec5-block-size">
                 <div class="sec5-block-content">
                     <div class="sec5-block-content-img">
-                        <img src="C:\Users\neeraj dana\Desktop\CodeChef\images\e831c3632edffe01f1e305fdfb62a95c" class="block-img-rsponsive" />
+                        <img src="images/e831c3632edffe01f1e305fdfb62a95c.png" class="block-img-rsponsive" />
                     </div>
                     <div class="sec5-block-content-text1">
                         <div style="padding:20px 0">
@@ -1138,7 +291,7 @@ footer {
             <div class="sec5-block-size">
                 <div class="sec5-block-content">
                     <div class="sec5-block-content-img">
-                        <img src="C:\Users\neeraj dana\Desktop\CodeChef\images\36b2f50729168c816800c2f3774e84de" class="block-img-rsponsive" />
+                        <img src="images/36b2f50729168c816800c2f3774e84de.png" class="block-img-rsponsive" />
                     </div>
                     <div class="sec5-block-content-text1">
                         <div style="padding:20px 0">
@@ -1161,7 +314,7 @@ footer {
             <div class="sec5-block-size">
                 <div class="sec5-block-content">
                     <div class="sec5-block-content-img">
-                        <img src="C:\Users\neeraj dana\Desktop\CodeChef\images\971549771ef62c020c81f833714162ed" class="block-img-rsponsive" />
+                        <img src="images/971549771ef62c020c81f833714162ed.png" class="block-img-rsponsive" />
                     </div>
     
                     <div class="sec5-block-content-text1">
@@ -1187,7 +340,7 @@ footer {
             <div class="sec5-block-size">
                 <div class="sec5-block-content">
                     <div class="sec5-block-content-img">
-                        <img src="C:\Users\neeraj dana\Desktop\CodeChef\images\12dca103472706b2d37943df2cd888ff" class="block-img-rsponsive" />
+                        <img src="images/12dca103472706b2d37943df2cd888ff.png" class="block-img-rsponsive" />
                     </div>
     
                     <div class="sec5-block-content-text1">
@@ -1211,7 +364,7 @@ footer {
             <div class="sec5-block-size">
                 <div class="sec5-block-content">
                     <div class="sec5-block-content-img">
-                        <img src="C:\Users\neeraj dana\Desktop\CodeChef\images\9ce26a267f589aa1cc57d2279d4dcae6" class="block-img-rsponsive" />
+                        <img src="images/9ce26a267f589aa1cc57d2279d4dcae6.png" class="block-img-rsponsive" />
                     </div>
                     <div class="sec5-block-content-text1">
                         <div style="padding:20px 0">
@@ -1234,7 +387,7 @@ footer {
             <div class="sec5-block-size">
                 <div class="sec5-block-content">
                     <div class="sec5-block-content-img">
-                        <img src="C:\Users\neeraj dana\Desktop\CodeChef\images\7811b3c150738517bf09d81da42dd134" class="block-img-rsponsive" />
+                        <img src="images/7811b3c150738517bf09d81da42dd134.png" class="block-img-rsponsive" />
                     </div>
                     <div class="sec5-block-content-text1">
                         <div style="padding:20px 0">
@@ -1257,7 +410,7 @@ footer {
             <div class="sec5-block-size">
                 <div class="sec5-block-content">
                     <div class="sec5-block-content-img">
-                        <img src="C:\Users\neeraj dana\Desktop\CodeChef\images\e838c1ef734664d0a537093ee41e962d" class="block-img-rsponsive" />
+                        <img src="images/e838c1ef734664d0a537093ee41e962d.png" class="block-img-rsponsive" />
                     </div>
                     <div class="sec5-block-content-text1">
                         <div style="padding:20px 0">
@@ -1352,7 +505,7 @@ footer {
                     Communitys
                 </li>
                 <li class="footer-common" style="float: right;">
-                    <img src="C:\Users\neeraj dana\Desktop\CodeChef\images\65c300de0437ece2e7f1f03bdc53a4d6" />
+                    <img src="images/65c300de0437ece2e7f1f03bdc53a4d6.png" />
                 </li>
                 <li class="footer-common" style="float: right;">
                     Payment Methods
