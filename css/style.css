@@ -96,7 +96,7 @@
 }
 .main-div-sec1 {
   margin: 75px 200px;
-  font-size: 30px;
+  font-size: 26px;
   position: relative;
 }
 .sec1-btn {
@@ -162,7 +162,7 @@
 }
 .sec3-menu {
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 25px;
 }
 .sec3-menu ul {
@@ -182,10 +182,12 @@
 .sec3-sub-main-div {
   margin: 30px 200px;
   padding: 0px;
+  font-size: 18px;
 }
 .sec3-sub-main-div-third {
   margin: 50px 200px;
   padding: 0px;
+  font-size: 18px;
 }
 .sec3-first-half {
   width: 40%;
@@ -241,7 +243,7 @@
   margin: 0px;
 }
 .sec4-subtitle {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   line-height: 1.5;
 }
@@ -300,6 +302,7 @@
 .sec4-subpanel-second .sec4-subpanel-text {
   width: 69%;
   display: inline-block;
+  font-size: 17px;
 }
 .sec4-subpanel-second .sec4-subpanel-text div {
   padding: 15px;
@@ -325,7 +328,7 @@
   margin: 0px;
 }
 .sec5-subtitle {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   line-height: 1.5;
 }
@@ -589,7 +592,7 @@ footer {
   }
   .sec3-menu {
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 25px;
   }
   .sec3-menu ul {
@@ -609,10 +612,12 @@ footer {
   .sec3-sub-main-div {
     margin: 30px 15px;
     padding: 0px;
+    font-size: 17px;
   }
   .sec3-sub-main-div-third {
     margin: 50px 15px;
     padding: 0px;
+    font-size: 18px;
   }
   .sec3-first-half {
     width: 40%;
@@ -663,7 +668,7 @@ footer {
     margin: 0px;
   }
   .sec4-subtitle {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     line-height: 1.5;
   }
@@ -722,6 +727,7 @@ footer {
   .sec4-subpanel-second .sec4-subpanel-text {
     width: 68%;
     display: inline-block;
+    font-size: 17px;
   }
   .sec4-subpanel-second .sec4-subpanel-text div {
     padding: 15px;
